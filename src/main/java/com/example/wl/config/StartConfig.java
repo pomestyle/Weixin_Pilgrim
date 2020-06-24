@@ -36,7 +36,7 @@ public class StartConfig implements ApplicationRunner {
         log.info("------------------------ 设置开票表头字段 ------------------------- ");
         AuthorPageFieldTool.doVoid();
         log.info("------------------------ 获取自身表示码 ---------------------------- ");
-        OwnCodeTool.getsPappid();
+        //OwnCodeTool.getsPappid();
         log.info("------------------------ 微信设置自定义菜单 ------------------------- ");
         OptionTool.creatOption();
     }

@@ -27,12 +27,8 @@ import java.util.Map;
 @RequestMapping("/api/wechat")
 @Slf4j
 public class WeChatPlanController extends BaseController {
-
     @Autowired
     private DealWeChatIncoiceService dealWeChatIncoiceService;
-
-
-
     @GetMapping("/getToken")
     @ResponseBody
     public String getToken(String signature, String timestamp, String nonce, String echostr) {
@@ -53,8 +49,7 @@ public class WeChatPlanController extends BaseController {
     /**
      * @description: 此方法用于微信回复消息
      * 该url配置到  【服务器配置】 页面
-     * @author: Pilgrim
-     * @time: 2018/12/29 2018/12/29 8:48
+     * @time: 2018/12/29 8:48
      */
     @PostMapping(value = "/getToken", produces = "application/xml;charset=UTF-8")
     @ResponseBody
