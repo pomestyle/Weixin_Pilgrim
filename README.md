@@ -26,7 +26,7 @@
 
 项目配置文件信息修改
 
-(https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/微信服务器配置.png)
+![Alt text](https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/微信服务器配置.png)
 
 
 ## 内网穿透
@@ -43,13 +43,13 @@
  http://asdasdad.free.idcfengye.com -> 127.0.0.1:8080
 
 如下图
-(https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/本机内网穿透.png)
+![Alt text](https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/本机内网穿透.png)
 
  http://asdasdad.free.idcfengye.com 内网穿透的对外域名  这个要配置在配置文件里 和 微信服务器url配置里 
  
  也就是下图所示地方
  
- (https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/ 接口url配置.png)
+ ![Alt text](https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/ 接口url配置.png)
 
  
  127.0.0.1:8080 指的是我本机项目启动的端口
@@ -63,7 +63,7 @@
  编写校验url和微信服务器进行交互代码在项目controller中get方法getToken
  
  内网穿透的域名和自己项目的url配置即可
-(https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/接口配置url.png)
+![Alt text](https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/接口配置url.png)
  
  然后启动项目
  
@@ -72,18 +72,18 @@
  com.example.wl.config.StartConfig 包中  run 里代码先注释了，然后启动ngrok并且启动本地服务
  
  
-  (https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/接口url配置.png) 这里点击确定
+![Alt text](https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/接口url配置.png) 这里点击确定
   
   然后控制台会打印出 配置成功
   
-  (https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/介入成功.png)
+![Alt text](https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/介入成功.png)
   
   表示介入成功
   
  
  然后放开run方法里的注释重新启动项目会发现，access_token获取成功，并且菜单也设置成功
 
- (https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/设置微信公众号菜单和获取token和设置授权页.png)
+![Alt text](https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/设置微信公众号菜单和获取token和设置授权页.png)
  
  
  ## 查看菜单
@@ -91,7 +91,7 @@
  扫码自己的测试二维码
  
  
- (https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/自己的测试二维码.png)
+![Alt text](https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/自己的测试二维码.png)
  
  
 
