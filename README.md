@@ -4,6 +4,96 @@
 
 ## 申请自己微信测试账号
 
+
+可以查看博客 
+
+[连小白都能看懂的微信开发之测试账号申请](链接网址 "https://blog.csdn.net/weixin_38361347/article/details/88983765")
+
+
+
 [测试账号](链接网址 "https://mp.weixin.qq.com/debug/cgi-bin/sandboxinfo?action=showinfo&t=sandbox/index")
 
-扫码登陆进去就可以看到 测试号信息  appID 和 appsecret
+[连小白都能看懂的微信开发之测试账号申请](链接网址 "https://blog.csdn.net/weixin_38361347/article/details/88983765")
+
+
+## 开发之环境搭建
+
+ 
+[开发之环境搭建](链接网址 "https://blog.csdn.net/weixin_38361347/article/details/88983788")
+
+
+## 微信服务器配置
+
+项目配置文件信息修改
+
+(https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/微信服务器配置.png)
+
+
+## 内网穿透
+
+(https://blog.csdn.net/weixin_38361347/article/details/84963643)
+
+
+微信服务器配置url 需要改成你自己内网穿透的url 
+
+
+
+我本机内网穿透
+
+ http://asdasdad.free.idcfengye.com -> 127.0.0.1:8080
+
+如下图
+(https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/本机内网穿透.png)
+
+ http://asdasdad.free.idcfengye.com 内网穿透的对外域名  这个要配置在配置文件里 和 微信服务器url配置里 
+ 
+ 也就是下图所示地方
+ 
+ (https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/ 接口url配置.png)
+
+ 
+ 127.0.0.1:8080 指的是我本机项目启动的端口
+ 
+ 
+ 微信token配置: 配置文件和微信服务器上配置要相同如图 我的都是 `test`
+ 
+ 
+ ## 配置校验token
+ 
+ 编写校验url和微信服务器进行交互代码在项目controller中get方法getToken
+ 
+ 内网穿透的域名和自己项目的url配置即可
+(https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/接口配置url.png)
+ 
+ 然后启动项目
+ 
+ 启动项目之前先把菜单和获取access_token注释了（如下代码）,这里先验证本机和微信服务器token校验
+ 
+ com.example.wl.config.StartConfig 包中  run 里代码先注释了，然后启动ngrok并且启动本地服务
+ 
+ 
+  (https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/接口url配置.png) 这里点击确定
+  
+  然后控制台会打印出 配置成功
+  
+  (https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/介入成功.png)
+  
+  表示介入成功
+  
+ 
+ 然后放开run方法里的注释重新启动项目会发现，access_token获取成功，并且菜单也设置成功
+
+ (https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/设置微信公众号菜单和获取token和设置授权页.png)
+ 
+ 
+ ## 查看菜单
+ 
+ 扫码自己的测试二维码
+ 
+ 
+ (https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/自己的测试二维码.png)
+ 
+ 
+
+
+
