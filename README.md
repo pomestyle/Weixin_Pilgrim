@@ -34,7 +34,9 @@
 
 项目配置文件信息修改
 
-![Alt text](https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/微信服务器配置.png)![微信服务器配置.png](https://upload-images.jianshu.io/upload_images/7852807-909fd5b189922aa9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+(https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/微信服务器配置.png)
+
+![微信服务器配置.png](https://upload-images.jianshu.io/upload_images/7852807-909fd5b189922aa9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
