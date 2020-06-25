@@ -9,7 +9,7 @@
 ## 配置
  
 
-[配置启动](链接网址 "https://blog.csdn.net/weixin_38361347/article/details/106956824")
+ 可查看 https://blog.csdn.net/weixin_38361347/article/details/106956824 
 
 
 
