@@ -1,13 +1,9 @@
 # Weixin_Pilgrim
-微信公众号设置菜单,网页授权,生成二维码,推送文本图文消息实例
+
+## github 仓库地址，希望给个start
 
 
-
-
-`希望给个start`
-
-
-微信公众号设置菜单,网页授权,生成二维码,推送文本图文消息实例
+> 微信公众号设置菜单,网页授权,生成二维码,推送文本图文消息实例
 
 
 ## 申请自己微信测试账号
@@ -34,22 +30,19 @@
 
 项目配置文件信息修改
 
-(https://github.com/pomestyle/Image_url/tree/master/Weixin_Pilgrim/微信服务器配置.png)
-
 ![微信服务器配置.png](https://upload-images.jianshu.io/upload_images/7852807-909fd5b189922aa9.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
 
 
 ## 内网穿透
 
-(https://blog.csdn.net/weixin_38361347/article/details/84963643)
-
+ [内网穿透](https://blog.csdn.net/weixin_38361347/article/details/84963643)
 
 微信服务器配置url 需要改成你自己内网穿透的url 
 
 
 
-我本机内网穿透
+我本机`内网穿透映射`
 
  http://asdasdad.free.idcfengye.com -> 127.0.0.1:8080
 
@@ -85,7 +78,7 @@
  
  com.example.wl.config.StartConfig 包中  run 里代码先注释了，然后启动ngrok并且启动本地服务
  
- ![介入成功.png](https://upload-images.jianshu.io/upload_images/7852807-f806631b85c92507.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+ ![接入成功.png](https://upload-images.jianshu.io/upload_images/7852807-f806631b85c92507.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 这里点击确定
   
   然后控制台会打印出 配置成功
@@ -94,7 +87,7 @@
 ](https://upload-images.jianshu.io/upload_images/7852807-173b2691022b0850.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
   
-  表示介入成功
+  表示接入成功
   
  
  然后放开run方法里的注释重新启动项目会发现，access_token获取成功，并且菜单也设置成功
@@ -136,6 +129,7 @@
 获取用户信息或者网页授权 点击菜单`网页授权获取用户信息` 可以参考博客 
 
 [https://blog.csdn.net/weixin_38361347/article/details/88983932](https://blog.csdn.net/weixin_38361347/article/details/88983932)
+
 [https://blog.csdn.net/weixin_38361347/article/details/88071066](https://blog.csdn.net/weixin_38361347/article/details/88071066)
 
 
@@ -143,12 +137,6 @@
 
 
 
- 
-
-
-
-
- 
  
 
 
